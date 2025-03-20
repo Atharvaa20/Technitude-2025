@@ -1,0 +1,39 @@
+# GenAI Restaurant and Clinic App Presentation
+
+## Slide 1: Title Slide
+- Project Title: GenAI Restaurant and Clinic App
+- Your Name
+- Date
+
+## Slide 2: Introduction
+- Brief overview of the project
+- Purpose and objectives
+
+## Slide 3: Key Features
+- **Restaurant Functionality**: Enhanced datasets, menu options, dietary information
+- **Clinic Functionality**: Doctor information, appointment scheduling, services offered
+
+## Slide 4: Code Quality
+- Modular structure with clear separation of concerns
+- Extensible architecture for adding new domains
+
+## Slide 5: Usability
+- Clean, intuitive UI with real-time feedback
+- Professional UI with clear mode switching
+
+## Slide 6: Efficiency
+- Optimized API calls and response handling
+
+## Slide 7: Technologies Used
+- Backend: FastAPI, Google Generative AI
+- Frontend: React, Material-UI
+
+## Slide 8: Challenges and Solutions
+- Discuss any challenges faced during development and how they were resolved
+
+## Slide 9: Future Enhancements
+- Potential features to be added in future versions
+
+## Slide 10: Conclusion
+- Summary of the project
+- Thank you and questions

@@ -1,0 +1,318 @@
+{
+  "menu_categories": [
+    {
+      "id": 1,
+      "name": "Appetizers",
+      "description": "Start your meal with our delicious starters"
+    },
+    {
+      "id": 2,
+      "name": "Soups & Salads",
+      "description": "Fresh and healthy options"
+    },
+    {
+      "id": 3,
+      "name": "Main Course",
+      "description": "Hearty and satisfying entrees"
+    },
+    {
+      "id": 4,
+      "name": "Pizza & Pasta",
+      "description": "Italian favorites"
+    },
+    {
+      "id": 5,
+      "name": "Asian Specialties",
+      "description": "Authentic Asian cuisine"
+    },
+    {
+      "id": 6,
+      "name": "Desserts",
+      "description": "Sweet endings to your meal"
+    },
+    {
+      "id": 7,
+      "name": "Beverages",
+      "description": "Refreshing drinks and cocktails"
+    }
+  ],
+  "menu_items": [
+    {
+      "id": 1,
+      "name": "Crispy Calamari",
+      "category": "Appetizers",
+      "description": "Tender calamari rings, lightly breaded and fried until golden, served with marinara sauce",
+      "price": 12.99,
+      "spicy_level": 0,
+      "vegetarian": false,
+      "vegan": false,
+      "gluten_free": false,
+      "calories": 320,
+      "preparation_time": "12 mins",
+      "popular": true
+    },
+    {
+      "id": 2,
+      "name": "Bruschetta",
+      "category": "Appetizers",
+      "description": "Grilled bread rubbed with garlic, topped with diced tomatoes, fresh basil, and extra virgin olive oil",
+      "price": 8.99,
+      "spicy_level": 0,
+      "vegetarian": true,
+      "vegan": true,
+      "gluten_free": false,
+      "calories": 220,
+      "preparation_time": "8 mins",
+      "popular": true
+    },
+    {
+      "id": 3,
+      "name": "Spinach & Artichoke Dip",
+      "category": "Appetizers",
+      "description": "Creamy blend of spinach, artichokes, and melted cheeses, served with tortilla chips",
+      "price": 10.99,
+      "spicy_level": 0,
+      "vegetarian": true,
+      "vegan": false,
+      "gluten_free": true,
+      "calories": 450,
+      "preparation_time": "15 mins",
+      "popular": true
+    },
+    {
+      "id": 4,
+      "name": "Classic Caesar Salad",
+      "category": "Soups & Salads",
+      "description": "Crisp romaine lettuce, parmesan cheese, croutons, tossed in our homemade Caesar dressing",
+      "price": 11.99,
+      "spicy_level": 0,
+      "vegetarian": true,
+      "vegan": false,
+      "gluten_free": false,
+      "calories": 320,
+      "preparation_time": "10 mins",
+      "customizable": true,
+      "add_ons": ["Grilled Chicken +4", "Grilled Shrimp +6", "Salmon +7"]
+    },
+    {
+      "id": 5,
+      "name": "Tomato Basil Soup",
+      "category": "Soups & Salads",
+      "description": "Creamy tomato soup with fresh basil and garlic, served with grilled cheese croutons",
+      "price": 7.99,
+      "spicy_level": 0,
+      "vegetarian": true,
+      "vegan": false,
+      "gluten_free": true,
+      "calories": 280,
+      "preparation_time": "5 mins",
+      "popular": true
+    },
+    {
+      "id": 6,
+      "name": "Grilled Salmon",
+      "category": "Main Course",
+      "description": "Fresh Atlantic salmon, grilled to perfection, served with roasted vegetables and quinoa",
+      "price": 24.99,
+      "spicy_level": 0,
+      "vegetarian": false,
+      "vegan": false,
+      "gluten_free": true,
+      "calories": 520,
+      "preparation_time": "20 mins",
+      "popular": true
+    },
+    {
+      "id": 7,
+      "name": "Filet Mignon",
+      "category": "Main Course",
+      "description": "8oz premium beef tenderloin, served with garlic mashed potatoes and seasonal vegetables",
+      "price": 34.99,
+      "spicy_level": 0,
+      "vegetarian": false,
+      "vegan": false,
+      "gluten_free": true,
+      "calories": 680,
+      "preparation_time": "25 mins",
+      "customizable": true,
+      "cooking_options": ["Rare", "Medium Rare", "Medium", "Medium Well", "Well Done"]
+    },
+    {
+      "id": 8,
+      "name": "Margherita Pizza",
+      "category": "Pizza & Pasta",
+      "description": "Fresh mozzarella, tomatoes, basil, extra virgin olive oil on our house-made crust",
+      "price": 16.99,
+      "spicy_level": 0,
+      "vegetarian": true,
+      "vegan": false,
+      "gluten_free": false,
+      "calories": 860,
+      "preparation_time": "15 mins",
+      "popular": true,
+      "size_options": ["Personal 10\"", "Medium 14\"", "Large 16\""]
+    },
+    {
+      "id": 9,
+      "name": "Fettuccine Alfredo",
+      "category": "Pizza & Pasta",
+      "description": "Fettuccine pasta in creamy parmesan sauce with garlic and butter",
+      "price": 15.99,
+      "spicy_level": 0,
+      "vegetarian": true,
+      "vegan": false,
+      "gluten_free": false,
+      "calories": 950,
+      "preparation_time": "18 mins",
+      "customizable": true,
+      "add_ons": ["Grilled Chicken +4", "Grilled Shrimp +6", "Broccoli +2"]
+    },
+    {
+      "id": 10,
+      "name": "Pad Thai",
+      "category": "Asian Specialties",
+      "description": "Rice noodles stir-fried with eggs, tofu, bean sprouts, and peanuts in tamarind sauce",
+      "price": 17.99,
+      "spicy_level": 2,
+      "vegetarian": true,
+      "vegan": false,
+      "gluten_free": true,
+      "calories": 580,
+      "preparation_time": "15 mins",
+      "customizable": true,
+      "spicy_options": ["Mild", "Medium", "Hot", "Thai Hot"]
+    },
+    {
+      "id": 11,
+      "name": "General Tso's Chicken",
+      "category": "Asian Specialties",
+      "description": "Crispy chicken in sweet and spicy sauce, served with steamed broccoli and rice",
+      "price": 18.99,
+      "spicy_level": 2,
+      "vegetarian": false,
+      "vegan": false,
+      "gluten_free": false,
+      "calories": 850,
+      "preparation_time": "20 mins",
+      "popular": true
+    },
+    {
+      "id": 12,
+      "name": "Chocolate Lava Cake",
+      "category": "Desserts",
+      "description": "Warm chocolate cake with a molten center, served with vanilla ice cream",
+      "price": 8.99,
+      "vegetarian": true,
+      "vegan": false,
+      "gluten_free": false,
+      "calories": 650,
+      "preparation_time": "15 mins",
+      "popular": true
+    },
+    {
+      "id": 13,
+      "name": "New York Cheesecake",
+      "category": "Desserts",
+      "description": "Classic creamy cheesecake with graham cracker crust and berry compote",
+      "price": 7.99,
+      "vegetarian": true,
+      "vegan": false,
+      "gluten_free": false,
+      "calories": 450,
+      "preparation_time": "5 mins",
+      "popular": true
+    },
+    {
+      "id": 14,
+      "name": "Craft Mojito",
+      "category": "Beverages",
+      "description": "Fresh mint, lime juice, rum, simple syrup, and club soda",
+      "price": 9.99,
+      "alcoholic": true,
+      "calories": 180,
+      "preparation_time": "5 mins",
+      "popular": true
+    },
+    {
+      "id": 15,
+      "name": "Fresh Berry Smoothie",
+      "category": "Beverages",
+      "description": "Blend of strawberries, blueberries, raspberries, yogurt, and honey",
+      "price": 6.99,
+      "vegetarian": true,
+      "vegan": false,
+      "gluten_free": true,
+      "calories": 220,
+      "preparation_time": "5 mins",
+      "customizable": true,
+      "add_ons": ["Protein Boost +2", "Chia Seeds +1", "Spinach +1"]
+    }
+  ],
+  "dietary_options": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten-Free",
+    "Dairy-Free",
+    "Nut-Free",
+    "Low-Carb",
+    "Keto-Friendly"
+  ],
+  "special_menus": [
+    {
+      "id": 1,
+      "name": "Happy Hour",
+      "timing": "3 PM - 6 PM",
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "description": "50% off on selected appetizers and drinks"
+    },
+    {
+      "id": 2,
+      "name": "Weekend Brunch",
+      "timing": "10 AM - 2 PM",
+      "days": ["Saturday", "Sunday"],
+      "description": "Special brunch menu with complimentary mimosa"
+    },
+    {
+      "id": 3,
+      "name": "Chef's Tasting Menu",
+      "timing": "6 PM - 10 PM",
+      "days": ["Friday", "Saturday"],
+      "description": "5-course tasting menu with wine pairing option",
+      "price": 75.00,
+      "wine_pairing": 35.00
+    }
+  ],
+  "restaurant_info": {
+    "name": "Fusion Flavors",
+    "cuisine_type": ["International", "Contemporary", "Fusion"],
+    "price_range": "$$-$$$",
+    "hours": {
+      "Monday": "11:00 AM - 10:00 PM",
+      "Tuesday": "11:00 AM - 10:00 PM",
+      "Wednesday": "11:00 AM - 10:00 PM",
+      "Thursday": "11:00 AM - 10:00 PM",
+      "Friday": "11:00 AM - 11:00 PM",
+      "Saturday": "10:00 AM - 11:00 PM",
+      "Sunday": "10:00 AM - 9:00 PM"
+    },
+    "address": "123 Culinary Street, Foodie City, FC 12345",
+    "phone": "(555) 123-4567",
+    "website": "www.fusionflavors.com",
+    "delivery_options": [
+      "In-house delivery",
+      "UberEats",
+      "DoorDash",
+      "GrubHub"
+    ],
+    "payment_methods": [
+      "Cash",
+      "Credit Card",
+      "Debit Card",
+      "Digital Wallet",
+      "Gift Cards"
+    ],
+    "parking": "Free valet parking available",
+    "dress_code": "Smart Casual",
+    "reservations": "Recommended for dinner service"
+  }
+}

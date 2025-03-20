@@ -1,0 +1,252 @@
+{
+  "doctors": [
+    {
+      "id": 1,
+      "name": "Dr. Sarah Smith",
+      "specialization": "General Medicine",
+      "qualification": "MD",
+      "consultation_fee": 75,
+      "available_days": ["Monday", "Wednesday", "Friday"],
+      "time_slots": [
+        "10:00 AM", "11:00 AM", "2:00 PM", "3:00 PM", "4:00 PM"
+      ],
+      "languages": ["English", "Spanish"],
+      "experience": "15 years",
+      "ratings": 4.8
+    },
+    {
+      "id": 2,
+      "name": "Dr. Michael Chen",
+      "specialization": "Family Medicine",
+      "qualification": "MD",
+      "consultation_fee": 80,
+      "available_days": ["Tuesday", "Thursday", "Saturday"],
+      "time_slots": [
+        "9:00 AM", "11:30 AM", "2:30 PM", "3:30 PM"
+      ],
+      "languages": ["English", "Mandarin"],
+      "experience": "12 years",
+      "ratings": 4.7
+    },
+    {
+      "id": 3,
+      "name": "Dr. James Wilson",
+      "specialization": "Internal Medicine",
+      "qualification": "MD, PhD",
+      "consultation_fee": 90,
+      "available_days": ["Monday", "Tuesday", "Thursday"],
+      "time_slots": [
+        "9:00 AM", "10:30 AM", "2:00 PM", "4:00 PM"
+      ],
+      "languages": ["English"],
+      "experience": "20 years",
+      "ratings": 4.9
+    },
+    {
+      "id": 4,
+      "name": "Dr. Emily Rodriguez",
+      "specialization": "Pediatrics",
+      "qualification": "MD",
+      "consultation_fee": 85,
+      "available_days": ["Monday", "Wednesday", "Friday"],
+      "time_slots": [
+        "9:30 AM", "11:00 AM", "2:30 PM", "4:30 PM"
+      ],
+      "languages": ["English", "Spanish"],
+      "experience": "10 years",
+      "ratings": 4.9
+    },
+    {
+      "id": 5,
+      "name": "Dr. David Kim",
+      "specialization": "Cardiology",
+      "qualification": "MD, DM",
+      "consultation_fee": 120,
+      "available_days": ["Tuesday", "Thursday", "Saturday"],
+      "time_slots": [
+        "10:00 AM", "11:30 AM", "3:00 PM", "4:30 PM"
+      ],
+      "languages": ["English", "Korean"],
+      "experience": "18 years",
+      "ratings": 4.8
+    },
+    {
+      "id": 6,
+      "name": "Dr. Lisa Patel",
+      "specialization": "Dermatology",
+      "qualification": "MD",
+      "consultation_fee": 100,
+      "available_days": ["Monday", "Wednesday", "Friday"],
+      "time_slots": [
+        "9:00 AM", "10:30 AM", "2:00 PM", "3:30 PM"
+      ],
+      "languages": ["English", "Hindi", "Gujarati"],
+      "experience": "8 years",
+      "ratings": 4.7
+    },
+    {
+      "id": 7,
+      "name": "Dr. Robert Thompson",
+      "specialization": "Orthopedics",
+      "qualification": "MD, MS",
+      "consultation_fee": 110,
+      "available_days": ["Tuesday", "Thursday", "Saturday"],
+      "time_slots": [
+        "8:30 AM", "10:00 AM", "2:30 PM", "4:00 PM"
+      ],
+      "languages": ["English"],
+      "experience": "16 years",
+      "ratings": 4.8
+    },
+    {
+      "id": 8,
+      "name": "Dr. Maria Garcia",
+      "specialization": "Gynecology",
+      "qualification": "MD, DNB",
+      "consultation_fee": 95,
+      "available_days": ["Monday", "Wednesday", "Friday"],
+      "time_slots": [
+        "9:00 AM", "11:00 AM", "2:00 PM", "4:00 PM"
+      ],
+      "languages": ["English", "Spanish"],
+      "experience": "14 years",
+      "ratings": 4.9
+    },
+    {
+      "id": 9,
+      "name": "Dr. John Murphy",
+      "specialization": "Psychiatry",
+      "qualification": "MD",
+      "consultation_fee": 130,
+      "available_days": ["Tuesday", "Thursday", "Saturday"],
+      "time_slots": [
+        "10:00 AM", "11:30 AM", "2:30 PM", "4:00 PM"
+      ],
+      "languages": ["English"],
+      "experience": "22 years",
+      "ratings": 4.8
+    },
+    {
+      "id": 10,
+      "name": "Dr. Sophia Lee",
+      "specialization": "Endocrinology",
+      "qualification": "MD, DM",
+      "consultation_fee": 115,
+      "available_days": ["Monday", "Wednesday", "Friday"],
+      "time_slots": [
+        "9:30 AM", "11:00 AM", "2:30 PM", "4:00 PM"
+      ],
+      "languages": ["English", "Korean", "Japanese"],
+      "experience": "13 years",
+      "ratings": 4.7
+    }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "name": "General Check-up",
+      "description": "Comprehensive health examination including vital signs, medical history review, and basic health screening",
+      "duration": "30 mins",
+      "cost": 75
+    },
+    {
+      "id": 2,
+      "name": "Pediatric Consultation",
+      "description": "Child health check-ups, vaccinations, and growth monitoring",
+      "duration": "45 mins",
+      "cost": 85
+    },
+    {
+      "id": 3,
+      "name": "Cardiac Evaluation",
+      "description": "Heart health assessment including ECG and consultation",
+      "duration": "60 mins",
+      "cost": 120
+    },
+    {
+      "id": 4,
+      "name": "Dermatology Consultation",
+      "description": "Skin examination and treatment planning",
+      "duration": "30 mins",
+      "cost": 100
+    },
+    {
+      "id": 5,
+      "name": "Orthopedic Assessment",
+      "description": "Musculoskeletal examination and treatment planning",
+      "duration": "45 mins",
+      "cost": 110
+    },
+    {
+      "id": 6,
+      "name": "Gynecological Check-up",
+      "description": "Women's health examination and consultation",
+      "duration": "45 mins",
+      "cost": 95
+    },
+    {
+      "id": 7,
+      "name": "Psychiatric Consultation",
+      "description": "Mental health assessment and counseling",
+      "duration": "60 mins",
+      "cost": 130
+    },
+    {
+      "id": 8,
+      "name": "Endocrine Disorder Consultation",
+      "description": "Hormone-related health assessment and treatment planning",
+      "duration": "45 mins",
+      "cost": 115
+    }
+  ],
+  "specialties": [
+    "General Medicine",
+    "Family Medicine",
+    "Internal Medicine",
+    "Pediatrics",
+    "Cardiology",
+    "Dermatology",
+    "Orthopedics",
+    "Gynecology",
+    "Psychiatry",
+    "Endocrinology"
+  ],
+  "facilities": [
+    {
+      "id": 1,
+      "name": "Laboratory Services",
+      "description": "Full-service diagnostic laboratory for blood work and other tests"
+    },
+    {
+      "id": 2,
+      "name": "X-Ray & Imaging",
+      "description": "Modern imaging facilities including X-ray, ultrasound, and ECG"
+    },
+    {
+      "id": 3,
+      "name": "Pharmacy",
+      "description": "In-house pharmacy with prescription and over-the-counter medications"
+    },
+    {
+      "id": 4,
+      "name": "Emergency Care",
+      "description": "24/7 emergency care services with qualified medical staff"
+    },
+    {
+      "id": 5,
+      "name": "Physical Therapy",
+      "description": "Rehabilitation services with certified physical therapists"
+    }
+  ],
+  "insurance": {
+    "accepted_providers": [
+      "BlueCross BlueShield",
+      "Aetna",
+      "UnitedHealthcare",
+      "Cigna",
+      "Medicare",
+      "Medicaid"
+    ],
+    "verification_required": true
+  }
+}
