@@ -98,6 +98,22 @@ A versatile GenAI-powered system that adapts between restaurant ordering and cli
 3. Enter your query in natural language
 4. Get AI-powered responses based on the context
 
+## Screenshots
+
+### 🌟 Home Page
+![Home Page](https://github.com/Atharvaa20/Technitude-2025/blob/master/Screenshots/Screenshot%20(1).png)
+
+### 🍽️ Restaurant Mode
+![Restaurant Mode](https://github.com/Atharvaa20/Technitude-2025/blob/master/Screenshots/res1.PNG)
+![Restaurant Mode](https://github.com/Atharvaa20/Technitude-2025/blob/master/Screenshots/res2.PNG)
+![Restaurant Mode](https://github.com/Atharvaa20/Technitude-2025/blob/master/Screenshots/res3.PNG)
+
+### 🏥 Clinic Mode
+![Clinic Mode](https://github.com/Atharvaa20/Technitude-2025/blob/master/Screenshots/clinic1.PNG)
+![Clinic Mode](https://github.com/Atharvaa20/Technitude-2025/blob/master/Screenshots/clinic2.PNG)
+![Clinic Mode](https://github.com/Atharvaa20/Technitude-2025/blob/master/Screenshots/clinic3.PNG)
+
+
 ## Evaluation Criteria Coverage
 
 - **Portability**: System adapts between restaurant and clinic use cases
